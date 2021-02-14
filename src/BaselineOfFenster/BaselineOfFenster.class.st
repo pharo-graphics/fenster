@@ -10,5 +10,6 @@ BaselineOfFenster >> baseline: spec [
 	spec for: #common do: [
 		spec
 			package: 'Fenster';
-			package: 'Fenster-Examples' with: [ spec requires: #(Fenster) ] ]
+			"package: 'Fenster-Examples' with: [ spec requires: #(Fenster) ]"
+			package: 'Fenster-Tests' with: [ spec requires: #(Fenster) ] ]
 ]
